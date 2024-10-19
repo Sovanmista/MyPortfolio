@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Photo from "./1710682251528.jpg";
+import DownloadButton from "./DownloadButon";
 const Header = () => {
+  
   return (
     <>
       <nav
@@ -30,12 +32,18 @@ const Header = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+         
           <ul class="navbar-nav">
             <li class="nav-item">
               <Link class="nav-link js-scroll-trigger" to="/">
                 About
               </Link>
             </li>
+           
+{/* <DownloadButton/> */}
+
+
+
             {/* <li class="nav-item">
               <Link class="nav-link js-scroll-trigger" to="/experience">
                 Experience

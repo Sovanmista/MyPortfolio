@@ -1,7 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
 import Linked from './174857.png'
+import DownloadButton from "../components/DownloadButon";
+import CV from './Susovan Mishra RESUME TYPE2 (3) 5464t17413t.pdf';
+// import { FaDownload } from 'react-icons/fa';
 const Home = () => {
+  const handleDownload = () => {
+    
+    const cvUrl = 'https://drive.google.com/file/d/194z9l3O3q3rElOCXNh-FNJx1OKpdsu5p/view?usp=drive_link';
+    window.open(cvUrl, '_blank');
+  };
   return (
     <>
       <div class="container-fluid p-0">
@@ -33,8 +41,12 @@ const Home = () => {
               <a class="social-icon" href="https://leetcode.com/u/susovanmishra0800/">
                 <i class="fab fa-facebook-f"></i>
               </a>
+              <button onClick={handleDownload} className="download-btn">
+      Download CV
+    </button>
             </div>
           </div>
+         
         </section>
         <hr class="m-0" />
 
@@ -98,6 +110,7 @@ const Home = () => {
               <li class="list-inline-item">
                 <i class="fab fa-react"></i>
               </li>
+
               {/* <li class="list-inline-item">
                 <i class="fab fa-html5"></i>
               </li>
@@ -140,6 +153,7 @@ const Home = () => {
               </li>
               <li class="list-inline-item">
               <i class="fa-brands fa-java"></i>
+            
 
               </li>
             </ul>
@@ -176,6 +190,48 @@ const Home = () => {
         <section class="resume-section" id="interests">
           <div class="resume-section-content">
             <h2 class="mb-5">PROJECTS</h2>
+            <div class="subheading mb-3">PORTFOLIO WEBSITE USING REACT <a href="https://github.com/Sovanmista/MyPortfolio">(GitHub)</a></div>
+            <p>
+            Developed a personal website using React, Font Awesome, and React Router, and deployed it on Netlify. The website serves as an online portfolio showcasing various projects, including detailed descriptions, images, and links to live demos and GitHub repositories.
+            </p>
+            <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                Utilized React for building a dynamic and responsive user interface, enhancing my skills in component-based architecture and state management.
+              </li>
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                Integrated Font Awesome icons to improve the visual appeal and user experience of the website.
+              </li>
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                
+                Implemented React Router for smooth and seamless navigation between different sections of the website, providing a better user experience.
+                
+              </li>
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                
+                Ensured the website is fully responsive and mobile-friendly, enhancing accessibility across various devices.
+                
+              </li>
+              <li>
+                <span class="fa-li">
+                  <i class="fas fa-check"></i>
+                </span>
+                
+                Gained experience in deploying web applications on Netlify, learning about continuous deployment, hosting, and custom domain setup.
+                
+              </li>
+             <br />
+
             <div class="subheading mb-3">CRYPTO TRACKER APP</div>
             <p>
             Developed a real-time web application to track the top 10 cryptocurrencies by market capitalization, displaying rank, name, price, and market cap.
