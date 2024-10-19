@@ -25,10 +25,7 @@ const Home = () => {
               <a href="mailto:susovanmishra0900@gmail.com">susovanmishra0900@gmail.com</a>
             </div>
             <p class="lead mb-5">
-              I am experienced in leveraging agile frameworks to provide a
-              robust synopsis for high level overviews. Iterative approaches to
-              corporate strategy foster collaborative thinking to further the
-              overall value proposition.
+            Motivated computer science undergraduate with a strong foundation in programming languages, algorithms, and problem-solving skills, seeking opportunities to apply knowledge and contribute to innovative projects.
             </p>
             <div class="social-icons">
               <a class="social-icon" href="https://www.linkedin.com/in/susovan-mishra-ab6998248/">
