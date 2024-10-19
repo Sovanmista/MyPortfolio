@@ -18,7 +18,7 @@ const Home = () => {
           <div class="resume-section-content">
             <h1 class="mb-0">
               Susovan
-              <span class="text-primary">Mishra</span>
+              <span class="text-primary"> Mishra</span>
             </h1>
             <div class="subheading mb-5">
               Garhbeta, Paschim Medinipur, West Bengal, India · +91 8972683565 ·
