@@ -35,9 +35,9 @@ const Home = () => {
                 <i class="fab fa-github"></i>
               </a>
              
-              <a class="social-icon" href="https://leetcode.com/u/susovanmishra0800/">
+              {/* <a class="social-icon" href="https://leetcode.com/u/susovanmishra0800/">
                 <i class="fab fa-facebook-f"></i>
-              </a>
+              </a> */}
               <button onClick={handleDownload} className="download-btn">
       Download CV
     </button>
